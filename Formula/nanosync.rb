@@ -7,22 +7,22 @@ class Nanosync < Formula
   on_macos do
     on_arm do
       url "https://github.com/nanosyncorg/nanosync-public/releases/download/v0.0.3/nanosync_v0.0.3_darwin_arm64.tar.gz"
-      sha256 "53994c18f6ec97c95f7378110ac2a4c96732d440ff33cbedc44f15a7da7b8f06"
+      sha256 "5ef61c176e15d841629b9858a0dd63d37f53fbfa60c7a87a703cb058576d7eba"
     end
     on_intel do
       url "https://github.com/nanosyncorg/nanosync-public/releases/download/v0.0.3/nanosync_v0.0.3_darwin_amd64.tar.gz"
-      sha256 "fd148c340eccea508c7a2e32a5dfc56751e36dc682e5fb5e4fa68c2a6bc02dd9"
+      sha256 "a64e469a39ae0ce7b558b1409dcae5fed9f723a66d029335b9ac11fa1e2db004"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nanosyncorg/nanosync-public/releases/download/v0.0.3/nanosync_v0.0.3_linux_arm64.tar.gz"
-      sha256 "f02254c524a491c93d4a2de563caf1e0a1ae48577686a4339300e71fc9f1ddc6"
+      sha256 "6344d3f81cb45577ec4c92eaa9c74e0301f6964799b58dbb508dd5d5ebf6d043"
     end
     on_intel do
       url "https://github.com/nanosyncorg/nanosync-public/releases/download/v0.0.3/nanosync_v0.0.3_linux_amd64.tar.gz"
-      sha256 "72a72316fffdf7eb21acd3e869b3b0cb758f84f9845b9e260875bf5f8fd53436"
+      sha256 "e0a7f58d6a65f3ec286ade2e32ea7d8455dcf0f83356ce4ff14e2fec09cdce96"
     end
   end
 
