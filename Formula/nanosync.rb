@@ -1,28 +1,28 @@
 class Nanosync < Formula
   desc "Ultra-low-latency data replication platform"
   homepage "https://nanosync.dev"
-  version "0.0.8"
+  version "0.0.9"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://github.com/nanosyncorg/nanosync-public/releases/download/v0.0.8/nanosync_v0.0.8_darwin_arm64.tar.gz"
-      sha256 "c4475c794f38e951535750dc24590ca0c2492ed25a0c051e8e7af3c3e6f065f1"
+      url "https://github.com/nanosyncorg/nanosync-public/releases/download/v0.0.9/nanosync_v0.0.9_darwin_arm64.tar.gz"
+      sha256 "351ff242dea50c72d1a73ee2b53327c99860255e3f6ba29de4057baaad395455"
     end
     on_intel do
-      url "https://github.com/nanosyncorg/nanosync-public/releases/download/v0.0.8/nanosync_v0.0.8_darwin_amd64.tar.gz"
-      sha256 "ff594f469ed68c1a60b4beecc0370fe41c4452f5b837fac93bbba0c56d975053"
+      url "https://github.com/nanosyncorg/nanosync-public/releases/download/v0.0.9/nanosync_v0.0.9_darwin_amd64.tar.gz"
+      sha256 "d20e8df26fcc2e66f0649d57e4b25302d22ba452cf7e430715540fbd13d6b3bc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nanosyncorg/nanosync-public/releases/download/v0.0.8/nanosync_v0.0.8_linux_arm64.tar.gz"
-      sha256 "b72112fe20dfdb0cd14524ba39abadcf7c6c7120cf98ab1f714463b35a48f657"
+      url "https://github.com/nanosyncorg/nanosync-public/releases/download/v0.0.9/nanosync_v0.0.9_linux_arm64.tar.gz"
+      sha256 "a0aaeb3a6b34c5c8cf655319f6f57b44baeed9dfada8c22f328a4adc4ab67933"
     end
     on_intel do
-      url "https://github.com/nanosyncorg/nanosync-public/releases/download/v0.0.8/nanosync_v0.0.8_linux_amd64.tar.gz"
-      sha256 "084b206657b8def1be5f9d86d89164319473abf406477efa98eedb8c633d0ad8"
+      url "https://github.com/nanosyncorg/nanosync-public/releases/download/v0.0.9/nanosync_v0.0.9_linux_amd64.tar.gz"
+      sha256 "1319e38d302ff3ccb27acc80e90e141fc8e4ce35fdcd26551a3e935baa45f612"
     end
   end
 
